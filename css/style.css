@@ -17,10 +17,11 @@ html {
 }
 
 .logo img {
-  width: 26%;
-  border: 1px solid white;
+  width: 23%;
+  border: 3px solid white;
   border-radius: 2px;
   margin: 5px 0;
+  cursor: pointer;
 }
 
 .navbar {
@@ -29,7 +30,7 @@ html {
   justify-content: center;
   position: sticky;
   top: 0;
-  cursor: pointer;
+  height: 60px;
 }
 
 .nav-list {
@@ -40,13 +41,14 @@ html {
 
 .nav-list li {
   list-style: none;
-  padding: 26px 30px;
+  padding: 0px 26px;
+  cursor: pointer;
 }
 
 .nav-list li a {
   text-decoration: none;
   color: white;
-  font-size: 20px;
+  font-size: 18px;
   font-family: "Ubuntu", sans-serif;
 }
 
@@ -74,7 +76,7 @@ html {
 }
 
 .firstSection {
-  height: 100vh;
+  height: 100%;
 }
 
 .box-main {
@@ -84,18 +86,19 @@ html {
   color: white;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin: auto;
-  max-width: 50%;
+  max-width: 69%;
+  padding: 100px 0;
 }
 
 .firstHalf {
-  width: 80%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
 .secondHalf {
-  width: 30%;
+  width: 0;
 }
 
 .secondHalf img {
@@ -107,7 +110,7 @@ html {
 }
 
 .text-big {
-  font-size: 41px;
+  font-size: 30px;
 }
 
 .text-small {
@@ -115,21 +118,22 @@ html {
 }
 
 .btn {
-  padding: 8px 20px;
-  margin: 7px 3px;
+  padding: 8px 18px;
+  margin: 23px 0px;
   border: 2px solid blue;
   border-radius: 8px;
   background: none;
   color: white;
   cursor: pointer;
   font-family: "Ubuntu", sans-serif;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .btn-sm {
-  padding: 6px 10px;
+  padding: 3px 10px;
   vertical-align: middle;
   font-size: 16px;
+  margin: 48px 0px;
 }
 
 .btn-dark {
@@ -167,7 +171,7 @@ html {
   width: 250px;
   border: 2px solid black;
   border-radius: 26px;
-  margin-top: 19px;
+  margin-top: 40px;
 }
 
 .contact {
