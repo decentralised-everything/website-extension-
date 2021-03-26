@@ -63,10 +63,10 @@ html {
 }
 
 #search {
-  padding: 5px;
+  padding: 4px;
   font-size: 17px;
   border: 2px solid black;
-  border-radius: 9px;
+  border-radius: 5px;
 }
 
 .background {
@@ -88,6 +88,7 @@ html {
   margin: auto;
   max-width: 69%;
   padding: 100px 0;
+  height: 400px;
 }
 
 .firstHalf {
@@ -95,6 +96,7 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  height: 200px;
 }
 
 .secondHalf {
@@ -111,29 +113,64 @@ html {
 
 .text-big {
   font-size: 30px;
+  padding: 5px 0;
 }
 
 .text-small {
   font-size: 18px;
+  padding: 5px 0;
 }
 
 .btn {
   padding: 8px 18px;
   margin: 23px 0px;
   border: 2px solid blue;
-  border-radius: 8px;
-  background: none;
+  border-radius: 5px;
+  background: transparent;
   color: white;
   cursor: pointer;
   font-family: "Ubuntu", sans-serif;
   font-size: 18px;
+  outline: none;
+}
+
+.btn:hover {
+  padding: 8px 18px;
+  margin: 23px 0px;
+  border: 2px solid white;
+  border-radius: 5px;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px;
+  outline: none;
 }
 
 .btn-sm {
-  padding: 3px 10px;
+  padding: 4px 10px;
   vertical-align: middle;
   font-size: 16px;
   margin: 48px 0px;
+  background: transparent;
+  color: white;
+  border: 2px solid blue;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+.btn-sm:hover {
+  padding: 4px 10px;
+  vertical-align: middle;
+  font-size: 16px;
+  margin: 48px 0px;
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
 }
 
 .btn-dark {
@@ -175,7 +212,7 @@ html {
 }
 
 .contact {
-  background-color: #f3f1ece8;
+  background-color: #ecedf340;
   height: 833px;
 }
 

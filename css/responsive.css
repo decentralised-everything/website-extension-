@@ -1,16 +1,26 @@
 @media only screen and (max-width: 1400px) {
   .nav-list {
     flex-direction: column;
+    padding: 20px;
+  }
+
+  .nav-list li {
+    padding: 10px;
+  }
+
+  .logo img {
+    width: 50px;
   }
 
   .navbar {
     flex-direction: column;
-    height: 447px;
-    transition: all 5.7s ease-out;
+    height: 400px;
+    transition: all 0.5s ease-out;
   }
 
   .rightNav {
     text-align: center;
+    padding: 10px;
   }
 
   .box-main {
@@ -20,6 +30,8 @@
 
   #search {
     width: 100%;
+    align-items: center;
+    padding: 0px 0px;
   }
 
   .burger {
@@ -27,7 +39,7 @@
   }
 
   .h-nav-resp {
-    height: 72px;
+    height: 50px;
   }
 
   .v-class-resp {
