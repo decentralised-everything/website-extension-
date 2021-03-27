@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1025px) {
   .nav-list {
     flex-direction: column;
     padding: 20px;
@@ -64,5 +64,9 @@
 
   .paras {
     padding: 0px;
+  }
+
+  .form-input {
+    width: 95%;
   }
 }
