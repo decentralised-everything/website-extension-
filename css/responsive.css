@@ -69,4 +69,9 @@
   .form-input {
     width: 95%;
   }
+
+  .trans-buttons {
+    -webkit-box-reflect: below 1.5px
+      linear-gradient(transparent, rgb(70 70 255 / 0%));
+  }
 }
