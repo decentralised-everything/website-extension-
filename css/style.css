@@ -155,7 +155,11 @@ html {
   width: 100%;
   height: 100%;
   z-index: 1;
-  background: linear-gradient(180deg, rgb(70, 70, 255), #000);
+  background: linear-gradient(
+    180deg,
+    rgb(70, 70, 255, 0.8),
+    hsla(0, 0%, 0%, 0.8)
+  );
   mix-blend-mode: multiply;
   opacity: 0;
   transition: 0.5s;
@@ -272,6 +276,7 @@ html {
   -webkit-box-reflect: below 1.5px
     linear-gradient(transparent, rgb(70, 70, 255));
   border: 1px solid transparent;
+  cursor: pointer;
 }
 .trans-buttons:hover {
   box-shadow: 0 0 80px rgba(245, 245, 245, 0.226);
