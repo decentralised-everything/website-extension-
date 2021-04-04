@@ -1,11 +1,11 @@
 @media only screen and (max-width: 1125px) {
   .nav-list {
     flex-direction: column;
-    padding: 20px;
+    padding: 30px;
   }
 
   .nav-list li {
-    padding: 10px;
+    padding: 30px;
   }
 
   .logo img {
@@ -68,6 +68,27 @@
 
   .form-input {
     width: 95%;
+  }
+
+  .btn {
+    height: auto;
+    cursor: pointer;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 25px;
+    transition: none;
+  }
+
+  .btn:hover {
+    transition: 0.5s;
+    background: hsla(240, 100%, 64%, 0.5);
+  }
+
+  svg {
+    transition: none;
+    height: 24px;
+    width: 179px;
+    border: none;
   }
 
   .trans-buttons {

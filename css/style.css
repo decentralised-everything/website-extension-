@@ -17,7 +17,7 @@ html {
   justify-content: center;
   position: sticky;
   top: 0;
-  height: 50px;
+  height: 60px;
 
   background: -o-linear-gradient(bottom, rgb(4, 14, 16) 0%, rgb(0, 0, 0) 99%);
   background: -ms-linear-gradient(bottom, rgb(4, 14, 16) 0%, rgb(0, 0, 0) 99%);
@@ -36,24 +36,69 @@ html {
   letter-spacing: 2px;
   margin-left: auto;
   margin-right: auto;
-  padding: 8px 15px;
-}
-.nav-list li:hover {
-  background: rgba(70, 70, 255, 0.85);
-  transition: ease-out 0.3s;
-  border-radius: 8px;
-  transform: scale(1.1);
+  transition: 1s ease-in-out;
+  background: transparent;
 }
 .nav-list li a {
   text-decoration: none;
-  color: white;
   font-size: 18px;
   font-family: "Montserrat", sans-serif;
+}
+.container-nav {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.center {
+  width: auto;
+  height: auto;
+  position: absolute;
+}
+svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  fill: none;
+  stroke: rgb(70, 70, 255);
+  stroke-width: 1px;
+  stroke-dasharray: 150 480;
+  stroke-dashoffset: 150;
+  transition: 1s ease-in-out;
+  height: 50px;
+  width: 190px;
+}
+.btn {
+  width: 180px;
+  height: 45px;
+  cursor: pointer;
+  background: transparent;
+  transition: 1s ease-in-out;
+  outline: none;
+  border: none;
+}
+.btn:hover {
+  transition: 0.5s ease-in-out;
+  background: transparent;
+}
+.btn:hover svg {
+  stroke-dashoffset: -480;
+}
+.btn span {
+  color: white;
+  font-size: 18px;
+  font-weight: 100;
+  font-family: "Montserrat", sans-serif;
+  transition: 0.5s ease-in-out;
+}
+.btn:hover span {
+  color: white;
+  transition: 0.5s ease-in-out;
 }
 .rightNav {
   width: 30%;
   text-align: right;
-  padding: 0px 23px;
+  padding: 10px;
 }
 #search {
   padding: 6px;
@@ -112,10 +157,11 @@ html {
   cursor: pointer;
   outline: none;
   letter-spacing: 1px;
+  transition: 0.2s ease-in-out;
 }
 .btn-sm:hover {
   border: 2px solid white;
-  transition: ease-out 0.2s;
+  transition: 0.2s ease-in-out;
 }
 .btn-dark {
   color: black;
@@ -274,7 +320,7 @@ html {
   margin-right: 6px;
   font-weight: 600;
   -webkit-box-reflect: below 1.5px
-    linear-gradient(transparent, rgb(70, 70, 255));
+    linear-gradient(transparent, rgba(70, 70, 255, 0.4));
   border: 1px solid transparent;
   cursor: pointer;
 }
