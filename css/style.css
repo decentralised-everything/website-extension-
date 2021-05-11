@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
+  font-family: "Montserrat", sans-serif;
 }
 
 html {
@@ -42,7 +43,6 @@ html {
 .nav-list li a {
   text-decoration: none;
   font-size: 18px;
-  font-family: "Montserrat", sans-serif;
 }
 .container-nav {
   position: absolute;
@@ -69,7 +69,7 @@ svg {
   width: 190px;
 }
 .btn {
-  width: 180px;
+  width: 160px;
   height: 45px;
   cursor: pointer;
   background: transparent;
@@ -88,7 +88,6 @@ svg {
   color: white;
   font-size: 18px;
   font-weight: 100;
-  font-family: "Montserrat", sans-serif;
   transition: 0.5s ease-in-out;
 }
 .btn:hover span {
@@ -121,7 +120,6 @@ svg {
   justify-content: center;
   align-content: center;
   color: white;
-  font-family: "Montserrat", sans-serif;
   margin: auto;
   max-width: 69%;
   padding: 100px 0;
@@ -146,7 +144,7 @@ svg {
 }
 
 .btn-sm {
-  padding: 4px 10px;
+  padding: 5px 10px;
   vertical-align: middle;
   font-size: 14px;
   margin: 4px 0px;
@@ -177,8 +175,8 @@ svg {
 }
 .container .box {
   position: relative;
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   overflow: hidden;
   transition: 0.5s;
   margin-left: auto;
@@ -231,7 +229,6 @@ svg {
   display: flex;
   padding: 20px;
   align-items: flex-end;
-  font-family: "Montserrat", sans-serif;
 }
 .container .box .content h2 {
   color: #fff;
@@ -240,7 +237,6 @@ svg {
   margin-bottom: 5px;
   font-size: 20px;
   transform: translateY(200px);
-  font-family: "Montserrat", sans-serif;
 }
 .container .box:hover .content h2 {
   transform: translateY(0);
@@ -264,8 +260,7 @@ svg {
 .text-center {
   text-align: center;
   padding-top: 30px;
-  font-family: "Montserrat", sans-serif;
-  font-size: 35px;
+  font-size: 30px;
   letter-spacing: 2px;
 }
 .form {
@@ -279,13 +274,11 @@ svg {
   border: 2px solid grey;
   border-radius: 6px;
   margin: 15px 0;
-  font-family: "Montserrat", sans-serif;
 }
 
 .text-footer {
   text-align: center;
   padding: 10px 0;
-  font-family: "Montserrat", sans-serif;
   display: flex;
   justify-content: center;
   color: white;
@@ -306,7 +299,6 @@ svg {
 }
 
 .trans-buttons {
-  font-family: "Montserrat", sans-serif;
   position: relative;
   padding: 14px 26px;
   display: inline-block;
