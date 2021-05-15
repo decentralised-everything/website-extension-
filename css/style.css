@@ -25,6 +25,8 @@ html {
   background: -moz-linear-gradient(bottom, rgb(4, 14, 16) 0%, rgb(0, 0, 0) 99%);
   background: linear-gradient(to top, rgb(4, 14, 16) 0%, rgb(0, 0, 0) 99%);
   z-index: 3;
+
+  box-shadow: 1px 1px 20px 0px black;
 }
 .nav-list {
   width: 70%;
@@ -182,11 +184,13 @@ svg {
   margin-left: auto;
   margin-right: auto;
   margin-top: 40px;
+  border-radius: 140px;
 }
 .container .box:hover {
   z-index: 1;
   transform: scale(1.25);
-  box-shadow: 0px 10px 50px rgb(0, 0, 0);
+  box-shadow: 0px 0px 50px rgb(70, 70, 255);
+  border-radius: 10px;
 }
 .container .box .imgBx {
   width: 50%;
@@ -309,7 +313,7 @@ svg {
   overflow: hidden;
   transition: 0.5s;
   top: 30px;
-  margin-right: 6px;
+  margin: 15px 10px 15px 10px;
   font-weight: 600;
   -webkit-box-reflect: below 1.5px
     linear-gradient(transparent, rgba(70, 70, 255, 0.4));
